@@ -1,0 +1,87 @@
+* {
+  font-family: 'Share', cursive;
+}
+
+.aaaaa {
+  position: relative;
+  overflow: hidden;
+  /* height: 700px; */
+  background-image: url('https://hariannusantara.com/wp-content/uploads/2019/06/gambar-pemandangan-kartun3.jpg');
+  background-size: cover;
+  background-position-y: -40px;
+}
+
+#judul {
+  color: rgb(4, 112, 18);
+  font-size: 120px;
+  text-align: center;
+}
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 90vh;
+  justify-content: center;
+}
+
+#running {
+  background-color: rgb(97, 208, 236);
+  color: white;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.btn {
+  box-sizing: border-box;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background-color: white;
+  opacity: 70%;
+  border: 5px solid #0e6e2b;
+  border-radius: 2em;
+  color: #0e6e2b;
+  cursor: pointer;
+  display: flex;
+  /* justify-content: center;
+  flex-direction: column; */
+  /* align-self: center; */
+  font-size: 2rem;
+  font-weight: 900;
+  line-height: 1;
+  margin: 20px;
+  padding: 1.2em 2.8em;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Share', cursive;
+  font-weight: 700;
+}
+.btn:hover, .btn:focus {
+  
+  color: black;
+  outline: 0;
+}
+
+.first {
+  transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+}
+.first:hover {
+  box-shadow: 0 0 20px 20px #0e6e2b inset;
+}
+
+.wrapper {
+  width: 300px;
+  margin: auto;
+}
+.wrapper .text {
+  font-family: 'Share', cursive;
+  font-size: 100px;
+  font-weight: bold;
+  text-shadow: 5px 5px 0px #f0e8db, 8px 8px 0px #6c5257;
+  color: #b33939;
+  position: absolute;
+  left: 50%;
+  top: 20%;
+  transform: translate(-50%, -50%);
+}

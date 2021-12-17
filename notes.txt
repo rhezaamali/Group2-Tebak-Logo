@@ -1,0 +1,18 @@
+TEBAK LOGO
+tampilan 1: [anin]
+  home start
+tampilan 2: [jimmy]
+  login username
+tampilan 3: [rheza, ihsan, bintang]
+  isi games
+  menang/kalah
+
+
+PR:
+1. ambil username
+2. halaman terkhir
+    - score, username, ucapan selamat
+3. link username ke halaman akhir
+4. bikin option main lagi
+5. tambahin musik punk
+6. rapihin css
